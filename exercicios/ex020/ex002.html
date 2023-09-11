@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;          
+        }
+        a:hover {
+            color: rgb(60, 0, 255);
+        }       
+        a:active {
+            color: rgb(0, 255, 4);
+        }
+        
+        .principal::after {
+            content: '⇐';
+        }
+        .principal::before {
+            content: '⇒';
+        }
+        .principal {
+            background-color: rgb(239, 157, 157);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://instagram.com/gutta_farias?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">@GUTTA_FARIAS</a></li>
+        <li><a href="https://youtu.be/LHCob76kigA?si=N7FIND3qHbyk-aXp" target="_blank" class="principal">YOUTUBE 7 YEARS</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100004884795283&mibextid=2JQ9oc" target="_blank" class="principal">@FACEBOOK</a></li>
+    </ul>
+    
+</body>
+</html>

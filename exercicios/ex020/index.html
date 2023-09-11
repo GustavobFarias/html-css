@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            a {
+                color: red;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            a:visited {
+                color: black;
+            }
+
+            a:hover {
+                color: blue;
+                text-decoration: underline;
+            }
+
+            a:active {
+                color: yellow;
+            } 
+
+            .especial {
+                background-color: rgb(233, 124, 124);
+                
+            }
+
+            .especial::before {
+                content: '⇒';
+                
+            } 
+            
+            .especial::after {
+               content:'⇐ '; 
+            }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://instagram.com/gutta_farias?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"> @GUTTA_FARIAS</a></li>
+        <li><a href="https://youtu.be/LHCob76kigA?si=N7FIND3qHbyk-aXp"class="especial" target="_blank">YOUTUBE 7 YEARS</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100004884795283&mibextid=2JQ9oc"class="especial" target="_blank">Facebook Gustavofarias</a></li>
+    </ul>
+    
+</body>
+</html>

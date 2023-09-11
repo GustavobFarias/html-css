@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hsopedado no meu próprio servidor.</p>
+    <!--width dá o tamanho do video-->
+    <!--poster dá a primeira imagem no video-->
+    <!--A tag video vai usar muito trafego de dados,avisar cliente-->
+      <video width="560" poster="capa-carro.png" controls autoplay loop>
+        <source src="meu-video.mp4.mp4" type="">
+        <source src="meu-video.mkv.mkv" type="">
+        <source src="meu-video.webm.webm" type="">
+      </video>
+      <h1>Inserindo videos do youtube</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4SoNmRVxsBw?si=SPOLBnwRcDFevE_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
