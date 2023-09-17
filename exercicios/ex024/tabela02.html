@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            
+                    
+        }
+
+        thead {
+            height: 50px;
+            background-color: gray;
+            color: white;
+        }
+
+        th {
+            width: 200px;
+            border: 1px solid black;   
+           
+        }
+
+        td {
+            width: 200px;
+            border: 1px solid black;
+            height: 30px;                      
+        }
+        td.estado {
+            text-align: left;
+        }
+        
+        tfoot {
+            background-color: gray;
+            color: white;
+            height: 50px;
+            width: 300px;
+        }
+        th.total {
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <thead>
+           <tr>
+            <th>Posição</th>
+            <th>Estado</th>
+            <th>População</th>
+            <th>% da população</th>
+           </tr> 
+        </thead>
+        <tbody>
+            <td class="posição">1</td>
+            <td class="estado">São Paulo</td>
+            <td>44 420 459</td>
+            <td>21,88%</td>
+               
+        </tbody>
+        <tbody>
+            <td class="posição">2</td>
+            <td class="estado">Minas Gerais</td>
+            <td>20 538 718</td>
+            <td>10,11%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">3</td>
+            <td class="estado">Rio de Janeiro</td>
+            <td>16 054 524</td>
+            <td>7,91%</td>    
+        </tbody>
+
+        <tbody>
+            <td class="posição">4</td>
+            <td class="estado">Bahia</td>
+            <td>14 136 417</td>
+            <td>6,96%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">5</td>
+            <td class="estado">Paraná</td>
+            <td>11 443 208</td>
+            <td>5,64%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">6</td>
+            <td class="estado"> Rio Grande do Sul</td>
+            <td>10 880 506</td>
+            <td>5,36%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">7</td>
+            <td class="estado"> Pernambuco</td>
+            <td>9 058 155</td>
+            <td>4,46%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">8</td>
+            <td class="estado"> Ceará</td>
+            <td>8 791 688</td>
+            <td>4,33%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">9</td>
+            <td class="estado">Pará</td>
+            <td>8 116 132</td>
+            <td>4,1%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">10</td>
+            <td class="estado">Santa Catarina</td>
+            <td>7 609 601</td>
+            <td>3,75%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">11</td>
+            <td class="estado"> Goiás</td>
+            <td>7 055 228</td>
+            <td>3,47%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">12</td>
+            <td class="estado"> Maranhão</td>
+            <td>6 775 152</td>
+            <td>3,34%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">13</td>
+            <td class="estado"> Paraíba</td>
+            <td>3 974 495</td>
+            <td>1,96%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">14</td>
+            <td class="estado"> Amazonas</td>
+            <td>3 941 175</td>
+            <td>1,94%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">15</td>
+            <td class="estado">Espírito Santo</td>
+            <td>3 833 486</td>
+            <td>1,89%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">16</td>
+            <td class="estado">Mato Grosso</td>
+            <td>3 658 813</td>
+            <td>1,8%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">17</td>
+            <td class="estado"> Rio Grande do Norte</td>
+            <td>3 302 406</td>
+            <td>1,63%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">18</td>
+            <td class="estado"> Piauí</td>
+            <td>3 269 200</td>
+            <td>1,61%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">19</td>
+            <td class="estado"> Alagoas</td>
+            <td>3 127 511</td>
+            <td>1,54%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">20</td>
+            <td class="estado"> Distrito Federal</td>
+            <td>2 817 068</td>
+            <td>1,39%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">21</td>
+            <td class="estado"> Mato Grosso do Sul</td>
+            <td>2 756 700</td>
+            <td>1,36%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">22</td>
+            <td class="estado">Sergipe</td>
+            <td>2 209 558</td>
+            <td>1,09%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">23</td>
+            <td class="estado">Rondônia</td>
+            <td>1 581 016</td>
+            <td>0,78%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">24</td>
+            <td class="estado"> Tocantins</td>
+            <td>1 511 459</td>
+            <td>0,74%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">25</td>
+            <td class="estado">Acre</td>
+            <td>830 026</td>
+            <td>0,41%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">26</td>
+            <td class="estado">Amapá</td>
+            <td>733 508</td>
+            <td>0,36%</td>
+        </tbody>
+
+        <tbody>
+            <td class="posição">27</td>
+            <td class="estado"> Roraima</td>
+            <td>636 303</td>
+            <td>0,31%</td>
+        </tbody>
+
+        <tfoot>
+            <th></th>
+            <th class="total">Total de Habitante</th>
+            <th><strong>203.062.512</strong></th>
+            <th><strong>100%</strong></th>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
