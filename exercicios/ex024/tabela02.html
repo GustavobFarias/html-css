@@ -12,15 +12,34 @@
         }
 
         table {
+            width: 500px;
             border-collapse: collapse;
+            position: relative;
             
                     
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead {
             height: 50px;
-            background-color: gray;
+            background-color: rgb(38, 36, 36);
             color: white;
+        }
+
+        tbody > tr {           
+            font-weight: bold;
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
 
         th {
@@ -55,6 +74,9 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>
+            População das Unidades federativas
+        </caption>
         <thead>
            <tr>
             <th>Posição</th>
@@ -258,8 +280,7 @@
             <th><strong>203.062.512</strong></th>
             <th><strong>100%</strong></th>
         </tfoot>
-
     </table>
-    
+
 </body>
 </html>
